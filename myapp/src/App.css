@@ -1,0 +1,235 @@
+@font-face{
+  font-family: modernist;
+  src:url(./fonts/Sk-Modernist-Regular.otf);
+  font-weight: regular;
+}
+
+.St{
+  color: #fecd00;
+  text-shadow: 1px 1px;
+}
+
+.Sw{
+  color: #006aa8;
+  text-shadow: 1px 1px;
+
+}
+
+.icon{
+
+  width: 10rem;
+  background-color: darkgray;
+  border-radius: 30px;
+}
+
+.Weather{
+  
+  width: 100px;
+  height: 300px;
+}
+
+.Weather h2{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.weatherContainer{
+  width: 20rem;
+}
+
+.weatherContainer h3{
+font-style: italic;
+color: white;
+margin-top: 5rem;
+
+}
+
+
+.container{
+background-color: #292F36;
+  display:flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: modernist;
+  overflow-y: auto;
+}
+
+section{
+  display: flex; 
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 10rem;
+}
+
+section h1{
+  text-shadow: 1.5px 1.5px darkgray;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+section h2{
+  color:white;
+}
+
+section p{
+  text-shadow: 1px 1px darkgray;
+  color:white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.menu ul{
+display: flex;
+list-style-type: none;
+justify-content: flex-end;
+}
+
+.menu a{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-size: 22px;
+  color: #FFFf;
+}
+
+.menu a:hover{
+  color: #FF6B6B;
+}
+
+footer{
+margin-top: auto;
+height: 10rem;
+background-color: #292F36;
+color: white;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+color: #FF6B6B;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left:0;
+}
+
+section .contactLink{
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  padding: 6rem;
+}
+
+.contact a{
+  display: flex;
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .container{
+    min-width: 100vw;
+    background-color: #292F36;
+  }
+
+  section{
+  margin-left: 10%;
+  }
+
+  section h1{
+    color:white;
+    font-weight: bold;
+  }
+
+  section p{
+    color:white;
+    font-weight: bold;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu a{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2px;
+  }
+
+  .menu a:hover{
+    color:#FF6B6B;
+    font-weight: bold;
+  }
+
+  button:hover{
+    color: #FF6B6B;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  footer{
+    background-color: #FF6B6B;
+    min-width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 450px) {
+  .container{
+    background-color: #292F36;
+  }
+
+  section{
+    display: flex;
+    margin-left: 15%;
+  }
+
+  section h1{
+    color:white;
+    font-weight: bold;
+  }
+
+  section p{
+    color:#FFFF;
+    font-weight: bold;
+  }
+
+  .menu a{
+    color:#FFFF;
+    font-weight: bold;
+  }
+
+  .menu a:hover{
+    color:#FF6B6B;
+    font-weight: bold;
+  }
+
+  button:hover{
+    color: #FF6B6B;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  footer{
+    background-color: #FF6B6B;
+  }
+}
